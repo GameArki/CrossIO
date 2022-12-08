@@ -15,7 +15,7 @@ namespace JackFrame.CrossIO.Tests {
             CrossIOCore.WriteToPersistent(CrossIODataType.ReflectionBinary, "CrossIOTest", "myobj", obj1);
             bool isEnd = false;
             Action action = async () => {
-                TestClass obj2 = await CrossIOCore.ReadFromPersistent<TestClass>(CrossIODataType.ReflectionBinary, "CrossIOTest", "myobj");
+                TestClass obj2 = await CrossIOCore.ReadFromPersistentAsync<TestClass>(CrossIODataType.ReflectionBinary, "CrossIOTest", "myobj");
                 Assert.That(obj2.boolValue, Is.EqualTo(obj1.boolValue));
                 Assert.That(obj2.boolArray, Is.EqualTo(obj1.boolArray));
                 Assert.That(obj2.byteValue, Is.EqualTo(obj1.byteValue));

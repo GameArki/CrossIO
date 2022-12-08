@@ -1,6 +1,6 @@
 {
   "name": "com.frame.crossio",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Unity 指令式文件存储与读取, 支持 Win/iOS/Android",
   "displayName": "JackFrame.CrossIO",
   "unity": "2019.4",

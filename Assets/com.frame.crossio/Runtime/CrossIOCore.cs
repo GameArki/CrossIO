@@ -23,13 +23,13 @@ namespace JackFrame.CrossIO {
             UnityFileHelper.WriteFileBytesToPersistentDataPath(dir, filename, bytes);
         }
 
-        public async static Task<T> ReadFromPersistent<T>(CrossIODataType dataType, string dir, string filename) {
+        public async static Task<T> ReadFromPersistentAsync<T>(CrossIODataType dataType, string dir, string filename) {
             var bytes = await UnityFileHelper.ReadFileBytesFromPersistentDataPathAsync(dir, filename);
             return FromBytes<T>(dataType, bytes);
         }
 
         // ==== StreamingAssets ====
-        public async static Task<T> ReadFromStreamingAssets<T>(CrossIODataType dataType, string dir, string filename) {
+        public async static Task<T> ReadFromStreamingAssetsAsync<T>(CrossIODataType dataType, string dir, string filename) {
             var bytes = await UnityFileHelper.ReadFileBytesFromStreamingAssetsAsync(dir, filename);
             return FromBytes<T>(dataType, bytes);
         }

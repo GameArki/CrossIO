@@ -16,7 +16,7 @@ YourClass obj2 = CrossIOCore.ReadFromNormalDir<YourClass>(CrossIODataType.Reflec
 
 // or
 CrossIOCore.WriteToPersistent(CrossIODataType.ReflectionBinary, "dir", "filename", obj1);
-YourClass obj3 = await CrossIOCore.ReadFromPersistent<YourClass>(CrossIODataType.ReflectionBinary, "dir", "filename");
+YourClass obj3 = await CrossIOCore.ReadFromPersistentAsync<YourClass>(CrossIODataType.ReflectionBinary, "dir", "filename");
 
 ```
 

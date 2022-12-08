@@ -1,0 +1,23 @@
+{
+  "name": "com.frame.crossio",
+  "version": "1.0.0",
+  "description": "Unity 指令式文件存储与读取, 支持 Win/iOS/Android",
+  "displayName": "JackFrame.CrossIO",
+  "unity": "2019.4",
+  "author": {
+    "name": "杰克有茶",
+    "email": "chenwansal1@163.com",
+    "url": "https://github.com/chenwansal"
+  },
+  "changelogUrl": "",
+  "dependencies": {},
+  "documentationUrl": "",
+  "hideInEditor": false,
+  "keywords": [
+    "tripodcamera"
+  ],
+  "license": "",
+  "licensesUrl": "",
+  "samples": [],
+  "unityRelease": "16f1"
+}

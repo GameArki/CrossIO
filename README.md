@@ -9,7 +9,7 @@ JackFrame.BufferIO: https://github.com/chenwansal/BufferIO
 2. 从二进制文件、Json字符串文件转化为原对象  
 
 # 如何使用
-```
+``` C#
 YourClass obj1 = new YourClass();
 CrossIOCore.WriteToNormalDir(CrossIODataType.ReflectionBinary, "dir", "filename", obj1);
 YourClass obj2 = CrossIOCore.ReadFromNormalDir<YourClass>(CrossIODataType.ReflectionBinary, "dir", "filename");

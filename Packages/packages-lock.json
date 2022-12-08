@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.frame.bufferio": {
+      "version": "ssh://git@github.com/chenwansal/bufferio.git?path=Assets/com.frame.bufferio#main",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "f12a1c7418059e796f29dc51da022553692e384b"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.8",
       "depth": 1,

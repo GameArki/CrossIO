@@ -2,7 +2,7 @@
 Unity 文件存取，适用于 Win/iOS/Android
 
 # 依赖
-JackFrame.BufferIO: https://github.com/chenwansal/BufferIO
+BufferIO: https://github.com/gamearki/BufferIO
 
 # 功能
 1. 将任意对象存为: 二进制文件、Json字符串文件  

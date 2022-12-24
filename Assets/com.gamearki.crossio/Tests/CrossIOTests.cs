@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 
-namespace JackFrame.CrossIO.Tests {
+namespace GameArki.CrossIO.Tests {
 
     public class CrossIOTests {
 

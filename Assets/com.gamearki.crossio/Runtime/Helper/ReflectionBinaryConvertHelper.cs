@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace JackFrame.CrossIO {
+namespace GameArki.CrossIO {
 
     public static class ReflectionBinaryConvertHelper {
 

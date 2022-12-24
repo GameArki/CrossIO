@@ -1,4 +1,4 @@
-namespace JackFrame.CrossIO {
+namespace GameArki.CrossIO {
 
     public enum CrossIODataType {
         JsonUTF8,

@@ -1,5 +1,5 @@
 {
-    "name": "JackFrame.CrossIO.Tests",
+    "name": "GameArki.CrossIO.Tests",
     "rootNamespace": "",
     "references": [
         "GUID:e03a939559292b54cb3af5172aa98432",

@@ -1,7 +1,7 @@
 using System.Text;
 using UnityEngine;
 
-namespace JackFrame.CrossIO {
+namespace GameArki.CrossIO {
 
     public static class JsonConvertHelper {
 

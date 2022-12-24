@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
 
-namespace JackFrame.CrossIO.Tests {
+namespace GameArki.CrossIO.Tests {
 
     public class TestClass {
         // All Base Types && String && Array

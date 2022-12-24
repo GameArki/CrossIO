@@ -2,7 +2,7 @@ using System.IO;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace JackFrame.CrossIO {
+namespace GameArki.CrossIO {
 
     public static class CrossIOCore {
 

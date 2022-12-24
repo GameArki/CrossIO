@@ -6,7 +6,7 @@ using UnityEngine.Networking;
 
 #pragma warning disable CS0618
 
-namespace JackFrame.CrossIO {
+namespace GameArki.CrossIO {
 
     /// <summary>
     /// 读/写文件到 PersistentDataPath 和 StreamingAssetsPath

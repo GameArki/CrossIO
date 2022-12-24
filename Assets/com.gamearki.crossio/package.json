@@ -1,20 +1,20 @@
 {
-  "name": "com.frame.crossio",
-  "version": "1.2.0",
+  "name": "com.gamearki.crossio",
+  "version": "1.3.0",
   "description": "Unity 指令式文件存储与读取, 支持 Win/iOS/Android",
-  "displayName": "JackFrame.CrossIO",
+  "displayName": "GameArki.CrossIO",
   "unity": "2019.4",
   "author": {
-    "name": "杰克有茶",
+    "name": "GameArki",
     "email": "chenwansal1@163.com",
-    "url": "https://github.com/chenwansal"
+    "url": "https://github.com/GameArki"
   },
   "changelogUrl": "",
   "dependencies": {},
   "documentationUrl": "",
   "hideInEditor": false,
   "keywords": [
-    "tripodcamera"
+    "gamearki"
   ],
   "license": "",
   "licensesUrl": "",
